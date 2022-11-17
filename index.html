@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous" />
+
+    <!-- File CSS -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <title>Furniture Store</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: rgb(216, 245, 241)">
+      <div class="container">
+        <a class="navbar-brand" href="#">Aroby's Furniture Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pembayaran</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bantuan</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <form class="container-fluid justify-content-start">
+              <button class="btn btn-outline-success me-2" type="button">
+                <img src="https://img.icons8.com/officexs/344/shopping-cart.png" 
+                width="20" />Keranjang</button>
+            </form>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!--Carousel -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <!-- Banner Di Sesuaikan Gambarnya, gak harus sama persis -->
+                <img class="img-fluid" src="furniture.jpg" alt="" />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left align-self-center">
+                  <h1 class="h1 text-success"><b>Aroby's</b> Furniture Store</h1>
+                  <h3 class="h2">Bersama Toko Furniture Aroby pelanggan akan mendapatkan pelayanan maksimal</h3>
+                  <p>Toko Furniture Aroby ini terletak di JL.A.Yani No.1 Purwokerto Jawa Tengah.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#carousel" role="button" data-bs-slide="prev">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#tcarousel" role="button" data-bs-slide="next">
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </div>
+    <!-- Carousel end -->
+
+    <!-- Start Best Seller -->
+    <section class="container py-5">
+      <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+          <h1 class="h1">Macam - macam furniture</h1>
+          <p>Terdapat berbagai macam barang ada kursi, meja, dan Springbed.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 p-5 mt-3"> 
+          <!-- untuk product barang sesuaikan dengan yang di contoh, boleh beda warna/bentuk, tapi masih 1 produk -->
+          <a href="#"><img src="asset/image/kursi.jpg" class="rounded-circle img-fluid border" /></a>
+          <h5 class="text-center mt-3 mb-3">Kursi</h5>
+          <p class="text-center"><a class="btn btn-success">Masukkan Keranjang</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <!-- untuk product barang sesuaikan dengan yang di contoh, boleh beda warna/bentuk, tapi masih 1 produk -->
+          <a href="#"><img src="meja.jpg" class="rounded-circle img-fluid border" /></a>
+          <h2 class="h5 text-center mt-3 mb-3">Meja</h2>
+          <p class="text-center"><a class="btn btn-success">Masukkan Keranjang</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <!-- untuk product barang sesuaikan dengan yang di contoh, boleh beda warna/bentuk, tapi masih 1 produk -->
+          <a href="#"><img src="springbed.jpg" class="rounded-circle img-fluid border" /></a>
+          <h2 class="h5 text-center mt-3 mb-3">Spring Bed</h2>
+          <p class="text-center"><a class="btn btn-success">Masukkan Keranjang</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- End Best Seller -->
+    
+       <!-- Start Footer -->
+    <footer class="bg-dark" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-success border-bottom pb-3 border-light logo">Aroby's Furniture Store</h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li>
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                Jl.A.Yani No.1 Purwokerto Jawa Tengah
+              </li>
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                <a class="text-decoration-none" href="tel:010-020-0340">(0281) 639 404</a>
+              </li>
+              <li>
+                <i class="fa fa-envelope fa-fw"></i>
+                <a class="text-decoration-none" href="mailto:info@company.com">www.arobyfurniture.co.id</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">Info Lebih Lanjut</h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li><a class="text-decoration-none" href="#">Whatsapp</a></li>
+              <li><a class="text-decoration-none" href="#">Instagram</a></li>
+              <li><a class="text-decoration-none" href="#">Lokasi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100 bg-black py-3">
+        <div class="container">
+          <div class="row pt-2">
+            <div class="col-12">
+              <p class="text-left text-light">Ijin Usaha ( NIB ) &copy; 1234567891011</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
